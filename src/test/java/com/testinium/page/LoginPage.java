@@ -40,7 +40,7 @@ public class LoginPage extends BaseTest {
 
         methods.waitBySeconds(3);
 
-        methods.sendKeys(By.id("login-password"),"04mars04");
+        methods.sendKeys(By.id("login-password"),"Ba123456");
 
         logger.info("sifre girildi");
 
