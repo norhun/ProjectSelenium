@@ -51,9 +51,9 @@ public class BasketPage extends BaseTest {
 
         //Favori Listesinde yer alan , 3.ürün silinir.
 
-       /* methods.click(By.cssSelector("//*[@id='product-577328']/div[2]/div[3]/a[3]/i"));
+        methods.click(By.cssSelector("//*[@id='product-577328']/div[2]/div[3]/a[3]/i"));
 
-        methods.waitBySeconds(4);*/
+        methods.waitBySeconds(4);
 
 
 

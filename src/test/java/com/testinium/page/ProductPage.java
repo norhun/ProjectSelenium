@@ -37,7 +37,7 @@ methods.click(By.cssSelector(".common-sprite.button-search"));
 methods.waitBySeconds(2);
 
        // methods.scrollWithJS(By.cssSelector(".review-panel.review-panel__show-all"));
-methods.scrollWithAction(By.id("product-565088"));
+methods.scrollWithAction(By.xpath("(//*[@class='add-to-favorites'])[7]"));
 
 methods.waitBySeconds(2);
 
