@@ -19,12 +19,15 @@ public class FilterPage extends BaseTest {
         //ana Sayfaya geri dönme
 
         methods.click(By.xpath("//*[@id=\"header-bottom\"]/div/div[2]/a/img"));
+        logger.info("ana sayfaya geri dönüldü.");
 
         methods.waitBySeconds(2);
 
         //Puan Kataloguna gitme
 
         methods.click(By.xpath("//*[@id='mainNav']/div[1]/div/div[2]/a"));
+
+        logger.info("Puan kataloğuna gidildi.");
 
         methods.waitBySeconds(2);
 

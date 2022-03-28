@@ -20,7 +20,11 @@ public class BankPage extends BaseTest {
 
     public void bank(){
 
-        methods.sendKeys(By.id("#credit-card-owner"),"Nihat Orhun Zengi");
+        methods.sendKeys(By.cssSelector("#credit-card-owner"),"Nihat Orhun Zengi");
+        methods.sendKeys(By.cssSelector("#credit_card_number_1"),"6656");
+        methods.sendKeys(By.cssSelector("#credit_card_number_2"),"9000");
+        methods.sendKeys(By.cssSelector("#credit_card_number_3"),"0879");
+        methods.sendKeys(By.cssSelector("#credit_card_number_4"),"0824");
 
 
 
